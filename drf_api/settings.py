@@ -34,7 +34,9 @@ SECRET_KEY = 'django-insecure-_xb$gt)sv3fa+jh+c=anbu!g2ed^f8u3ljd8n*f^p_nqxynh%(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '8000-ebbagronvall-drfapi-1eell0o0zvv.ws.codeinstitute-ide.net'
+]
 
 
 # Application definition
@@ -48,6 +50,8 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+
+    'profiles',
 ]
 
 MIDDLEWARE = [
